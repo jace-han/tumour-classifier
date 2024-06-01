@@ -2,7 +2,7 @@
 For our IT1244 Project, we devised a VGG16-ANN model that accurately classifies the tumour as benign or malignant based on MRI images.
 
 **Description**
-In recent years there has been interest in develping Convolutional Neural Network (CNN) machine learning models that can assist in classifying MRI scans of brain tumorsinto benign or malignant. Our project aims to build on previous works by experimenting with the application of GradCAM to visualise the decision making done by CNNs as wellas exploring different ways to augment our training data to allow the trained model to be more robust and flexible.
+In recent years, there has been growing interest in developing Convolutional Neural Network (CNN) machine learning models that can accurately classify MRI scans of brain tumours into benign or malignant. Our project aims to create a model that can accurately perform this binary classification task. Moreover, to unveil the black-box nature of most neural network models, we have decided to use GradCAM to explain what feature of the image contributed to the output by each model. Since our dataset was limited (231 images) and mildly imbalanced (62 benign: 129 malignant), we also explored different ways to augment our training data to ensure our trained model is more robust and flexible.
 
 **Workflow**
 1. Data preparation which consists of two steps: Preprocessing and Augmentation
