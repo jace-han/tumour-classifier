@@ -37,6 +37,9 @@ The code code blocks should be run in order. The function of each code block is 
 ## **Authors**
 
 Justin Tan Min Shi (A0217325L)
+
 Han Yong Yi Jace (A0221948Y)
+
 Sng Zhi Wen Collin (A0252248E)
+
 Ryan Justyn (A0276053E)
