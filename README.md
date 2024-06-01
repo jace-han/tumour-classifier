@@ -2,6 +2,7 @@
 For our IT1244 Project, we devised a VGG16-ANN model that accurately classifies the tumour as benign or malignant based on MRI images.
 
 **Description**
+
 In recent years, there has been growing interest in developing Convolutional Neural Network (CNN) machine learning models that can accurately classify MRI scans of brain tumours into benign or malignant. Our project aims to create a model that can accurately perform this binary classification task. Moreover, to unveil the black-box nature of most neural network models, we have decided to use GradCAM to explain what feature of the image contributed to the output by each model. Since our dataset was limited (231 images) and mildly imbalanced (62 benign: 129 malignant), we also explored different ways to augment our training data to ensure our trained model is more robust and flexible.
 
 **Workflow**
@@ -17,9 +18,13 @@ In recent years, there has been growing interest in developing Convolutional Neu
 3. Installation of necessary packages: The second code block contains all the import statements
 
 '''
+
 !pip install numpy==1.24.3
+
 ##remaining import statements...
+
 !pip install tensorflow==2.12.1
+
 '''
 
 Remove the triple backticks (') at the top and the bottom of the code block to run the code which installs all the necessary packages. If all packages are already installed you can reapply the triple backticks to prevent packages from being installed again.
