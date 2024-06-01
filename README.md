@@ -34,7 +34,8 @@ Remove the triple backticks (') at the top and the bottom of the code block to r
 
 The code code blocks should be run in order. The function of each code block is documented neatly. An alternative is to click the tab "runtime" -> "runall" to run all the blocks of code in order. There is also a table of contents that can be accessed by clicking the table of contents icon at the top left of the page.
 
-**Authors**
+## **Authors**
+
 Justin Tan Min Shi (A0217325L)
 Han Yong Yi Jace (A0221948Y)
 Sng Zhi Wen Collin (A0252248E)
