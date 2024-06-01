@@ -15,7 +15,7 @@ In recent years, there has been growing interest in developing Convolutional Neu
 **Getting Started**
 1. Dependencies: keras version 2.15.0
 2. Ensure file paths to dataset are correct: The first code block specifies the file path to the dataset. If the dataset folder is moved to a different location please specify the new file path to ensure that the program can find the dataset. If the unzipped folder is used without modification then the default file path given will work fine.
-3. Installation of necessary packages: The second code block contains all the import statements
+3. Installation of necessary packages: The second code block contains all the import statements, just like the example as follow:
 
 '''
 
